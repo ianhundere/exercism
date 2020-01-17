@@ -7,7 +7,7 @@
 //                 or / 31622400  leap year
 
 export const gigasecond = (dateOfBirth) => {
-	const GIGASECOND_IN_MS = 1000000000000;
-	const birthTime = dateOfBirth.getTime();
-	return new Date(birthTime + GIGASECOND_IN_MS);
+  const GIGASECOND_IN_MS = 1000000000000;
+  const birthTime = dateOfBirth.getTime();
+  return new Date(birthTime + GIGASECOND_IN_MS);
 };
